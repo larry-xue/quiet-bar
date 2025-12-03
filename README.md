@@ -118,6 +118,7 @@ quiet-bar/
 │   │   └── Layout.astro      # Base HTML layout with SEO
 │   ├── pages/
 │   │   ├── index.astro       # Main page
+│   │   ├── 404.astro         # 404 error page
 │   │   └── articles/
 │   │       ├── index.astro   # Articles list page
 │   │       └── [slug].astro  # Individual article page
