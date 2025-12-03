@@ -4,15 +4,19 @@ A beautiful, vintage/industrial-styled website template for bars, pubs, and rest
 
 ![Quiet Bar Theme](public/images/logo.svg)
 
+> **Quiet Bar Theme** created by [Larry Xue](https://larryxue.dev)
+> 
+> Need help with **Customizing**, **Hosting**, or **Web Development**? [Contact me](https://larryxue.dev/contact) for professional support.
+
 ## One-Click Deploy
 
 Deploy your own Quiet Bar site with one click:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/anthropics/quiet-bar)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/larry-xue/quiet-bar)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/anthropics/quiet-bar)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/larry-xue/quiet-bar)
 
-[![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/anthropics/quiet-bar)
+[![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/larry-xue/quiet-bar)
 
 ## Features
 
@@ -53,28 +57,31 @@ This theme intentionally uses **only Astro** as its dependency:
 
 ### Installation
 
-1. **Clone or download the repository**
+#### Option 1: Using Astro CLI (Recommended)
+
+Create a new project using the Astro template command:
 
 ```bash
-git clone https://github.com/your-username/quiet-bar.git
+npm create astro@latest -- --template larry-xue/quiet-bar
+```
+
+Then start the development server:
+
+```bash
 cd quiet-bar
-```
-
-2. **Install dependencies**
-
-```bash
-npm install
-```
-
-3. **Start the development server**
-
-```bash
 npm run dev
 ```
 
-4. **Open your browser**
+#### Option 2: Clone the Repository
 
-Navigate to `http://localhost:4321` to see your site.
+```bash
+git clone https://github.com/larry-xue/quiet-bar.git
+cd quiet-bar
+npm install
+npm run dev
+```
+
+Open your browser and navigate to `http://localhost:4321` to see your site.
 
 ## Project Structure
 
@@ -417,10 +424,6 @@ server {
 
 MIT License - Feel free to use this template for personal or commercial projects.
 
-## Credits
+## Support
 
-**Quiet Bar Theme** created by **Larry Xue**
-
----
-
-Need help? Open an issue on GitHub or reach out to the creator.
+Need help? [Open an issue](https://github.com/larry-xue/quiet-bar/issues) on GitHub or [contact the creator](https://larryxue.dev/contact) for professional support.
