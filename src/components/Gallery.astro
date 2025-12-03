@@ -13,11 +13,11 @@ const galleryImages: GalleryImage[] = siteData.gallery;
   <div class="container">
     <h2 id="gallery-title" class="section__title">The Space</h2>
     
-    <div class="gallery__grid" role="list">
+    <div class="gallery__grid">
       {galleryImages.map((image, index) => (
         <button
           class="gallery__item"
-          role="listitem"
+          type="button"
           data-gallery-trigger
           data-index={index}
           aria-label={`View ${image.alt}`}
