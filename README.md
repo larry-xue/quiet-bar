@@ -16,6 +16,8 @@ Deploy your own Quiet Bar site with one click:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/larry-xue/quiet-bar)
 
+**Cloudflare Pages:** Go to [Cloudflare Dashboard](https://dash.cloudflare.com/) → Pages → Create → Connect to Git → Select `larry-xue/quiet-bar`
+
 ## Features
 
 - **Zero Dependencies** - Only Astro, no Tailwind CSS, no UI frameworks, no bloat
