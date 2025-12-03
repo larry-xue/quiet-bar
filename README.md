@@ -280,6 +280,21 @@ Set `url` to `null` if there's no link to the original article.
 }
 ```
 
+### Robots.txt
+
+The `public/robots.txt` file controls search engine crawling. By default, all crawlers are allowed:
+
+```txt
+User-agent: *
+Allow: /
+```
+
+To add a sitemap, uncomment and update the Sitemap line with your domain:
+
+```txt
+Sitemap: https://yourdomain.com/sitemap.xml
+```
+
 ## Customization
 
 ### Changing Colors
