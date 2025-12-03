@@ -1,16 +1,44 @@
 ---
-
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import InfoBar from '../components/InfoBar.astro';
+import Hours from '../components/Hours.astro';
+import Tagline from '../components/Tagline.astro';
+import Menu from '../components/Menu.astro';
+import Gallery from '../components/Gallery.astro';
+import Location from '../components/Location.astro';
+import Press from '../components/Press.astro';
+import Contact from '../components/Contact.astro';
+import Footer from '../components/Footer.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout>
+  <Header />
+  <InfoBar />
+  
+  <main id="main-content">
+    <Tagline />
+    <Hours />
+    <Menu />
+    <Gallery />
+    <Location />
+    <Press />
+    <Contact />
+  </main>
+  
+  <Footer />
+</Layout>
+
+<style is:global>
+  /* Page-level scroll margin for section anchors */
+  section[id] {
+    scroll-margin-top: 60px;
+  }
+  
+  /* Mobile: account for bottom bar */
+  @media (max-width: 640px) {
+    section[id] {
+      scroll-margin-top: 20px;
+    }
+  }
+</style>
