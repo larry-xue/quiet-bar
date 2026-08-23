@@ -1,6 +1,7 @@
 ---
 import siteData from '../data/site.json';
 import '../styles/global.css';
+import DemoBanner from '../components/DemoBanner.astro'
 
 interface Props {
   title?: string;
@@ -109,6 +110,7 @@ const structuredData = {
     <meta name="generator" content={Astro.generator} />
   </head>
   <body>
+    <DemoBanner />
     <a href="#main-content" class="sr-only">Skip to main content</a>
     <slot />
   </body>
