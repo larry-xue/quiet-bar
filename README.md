@@ -506,6 +506,15 @@ server {
 - Safari (latest)
 - Edge (latest)
 
+## More Astro templates
+
+- **[Astroloop](https://github.com/lx-themes/astroloop)** — a landing page for AI agent products: an agent-loop diagram with a human handoff gate, and a per-tool permission matrix. [Demo](https://astroloop.larryxue.dev)
+- [Astro Sassify](https://github.com/larry-xue/astro-sassify-template) — a SaaS landing page with a full design system, dark mode and view transitions. [Demo](https://astro-sassify.larryxue.dev/)
+- [Astro Zen Blog](https://github.com/larry-xue/astro-zen-blog) — a minimal blog, with typography tuned for long-form reading. [Demo](https://astro-zen-blog.larryxue.dev/)
+- [Apple-Style Portfolio](https://github.com/larry-xue/apple-style-portfolio) — a minimalist portfolio with GSAP motion and a Three.js accent. [Demo](https://apple-style-portfolio.larryxue.dev)
+
+All MIT, all free for commercial use.
+
 ## License
 
 MIT License - Feel free to use this template for personal or commercial projects.
